@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avance immédiate du crédit d'impôt - BE Clean</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f1eb;
+      color: #3f332d;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px 50px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 35px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      color: #a65f4b;
+      text-align: center;
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      color: #a65f4b;
+      margin-top: 30px;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 1.08rem;
+    }
+
+    .example {
+      background: #f3e1d8;
+      border-left: 5px solid #a65f4b;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 25px 0;
+    }
+
+    .example h3 {
+      margin-top: 0;
+      color: #8d4e3d;
+    }
+
+    .amount {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(63,51,45,0.12);
+    }
+
+    .amount:last-child {
+      border-bottom: 0;
+      font-weight: bold;
+      font-size: 1.15rem;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 7px;
+      padding: 12px 20px;
+      border-radius: 25px;
+      background: #a65f4b;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      background: #6f625b;
+    }
+
+    .note {
+      font-size: 0.92rem;
+      color: #665b55;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 25px 20px; }
+      h1 { font-size: 1.65rem; }
+      .amount { flex-direction: column; gap: 2px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>L’Avance immédiate du crédit d’impôt</h1>
+
+      <p class="intro">
+        Avec l’Avance immédiate, vous pouvez bénéficier directement de votre avantage fiscal
+        au moment du paiement de certaines prestations de services à la personne,
+        sous réserve de votre éligibilité et des conditions du dispositif.
+      </p>
+
+      <h2>Comment ça fonctionne ?</h2>
+
+      <p>
+        Le principe est simple : au lieu d’attendre votre déclaration de revenus pour
+        bénéficier du crédit d’impôt, l’avantage fiscal est pris en compte directement
+        lors du paiement de la prestation éligible.
+      </p>
+
+      <p>
+        Chez <strong>BE Clean</strong>, cela peut vous permettre de ne régler que la
+        moitié du montant de la prestation éligible, lorsque vous bénéficiez de
+        l’Avance immédiate et dans la limite des règles applicables.
+      </p>
+
+      <div class="example">
+        <h3>Exemple concret avec BE Clean</h3>
+
+        <div class="amount">
+          <span>Prestation de 2 heures</span>
+          <strong>54 €</strong>
+        </div>
+
+        <div class="amount">
+          <span>Avance immédiate du crédit d’impôt</span>
+          <strong>- 27 €</strong>
+        </div>
+
+        <div class="amount">
+          <span>Reste à payer</span>
+          <strong>27 €</strong>
+        </div>
+      </div>
+
+      <h2>À retenir</h2>
+
+      <ul>
+        <li>Le tarif de BE Clean est de <strong>27 € / heure</strong> pour les prestations concernées.</li>
+        <li>Pour 2 heures de prestation, le montant est donc de <strong>54 €</strong>.</li>
+        <li>Avec l’Avance immédiate, l’avantage fiscal correspondant à cet exemple est de <strong>27 €</strong>.</li>
+        <li>Le montant restant à payer est donc de <strong>27 €</strong>, sous réserve de votre éligibilité et des conditions du dispositif.</li>
+      </ul>
+
+      <p class="note">
+        <strong>Important :</strong> l’Avance immédiate du crédit d’impôt est un dispositif
+        encadré par l’administration. Son bénéfice dépend notamment de votre éligibilité,
+        des prestations concernées et des plafonds applicables. Les modalités peuvent évoluer.
+      </p>
+
+      <div class="buttons">
+        <a class="button" href="index.html">Retour au site BE Clean</a>
+        <a class="button secondary"
+           href="https://www.impots.gouv.fr/particulier/emploi-domicile"
+           target="_blank" rel="noopener">
+          Informations officielles
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
