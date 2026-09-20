@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarifs | BE Clean</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf7;
+  color: #292522;
+}
+
+header {
+  background: #f4eee8;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 42px;
+  margin: 0;
+}
+
+h1 span {
+  color: #b95f4c;
+  font-style: italic;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 45px 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.category {
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+.category h2 {
+  font-family: Georgia, serif;
+  color: #b95f4c;
+  margin-top: 0;
+}
+
+.tarif {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 13px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.tarif:last-child {
+  border-bottom: none;
+}
+
+.prix {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.note {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 13px 25px;
+  background: #b95f4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+footer {
+  background: #292522;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+@media(max-width:600px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  .tarif {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .prix {
+    text-align: left;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>BE <span>Clean</span></h1>
+  <div class="subtitle">NETTOYAGE & AIDE À DOMICILE</div>
+</header>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Grille tarifaire</h2>
+    <p>Des prestations adaptées à vos besoins</p>
+    <p>📍 Le Barcarès • Leucate • Perpignan et alentours</p>
+  </div>
+
+  <div class="category">
+    <h2>🏠 Ménage à domicile</h2>
+
+    <div class="tarif">
+      <span>Entretien régulier</span>
+      <span class="prix">27 € / heure</span>
+    </div>
+
+    <div class="tarif">
+      <span>Grand nettoyage</span>
+      <span class="prix">Sur devis</span>
+    </div>
+
+    <div class="tarif">
+      <span>Après déménagement</span>
+      <span class="prix">Sur devis</span>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>🏖️ Locations saisonnières</h2>
+
+    <div class="tarif">
+      <span>Studio jusqu'à 30 m²</span>
+      <span class="prix">40 €</span>
+    </div>
+
+    <div class="tarif">
+      <span>T2 jusqu'à 50 m²</span>
+      <span class="prix">60 €</span>
+    </div>
+
+    <div class="tarif">
+      <span>T3 jusqu'à 80 m²</span>
+      <span class="prix">80 €</span>
+    </div>
+
+    <div class="tarif">
+      <span>T4 et plus jusqu'à 120 m²</span>
+      <span class="prix">110 €</span>
+    </div>
+
+    <div class="tarif">
+      <span>Linge de maison</span>
+      <span class="prix">Sur devis</span>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>🏢 Professionnels</h2>
+
+    <div class="tarif">
+      <span>Entretien régulier</span>
+      <span class="prix">27 € / heure</span>
+    </div>
+
+    <div class="tarif">
+      <span>Cabinet médical / dentaire</span>
+      <span class="prix">Sur devis</span>
+    </div>
+
+    <div class="tarif">
+      <span>Commerce / local professionnel</span>
+      <span class="prix">Sur devis</span>
+    </div>
+
+    <div class="tarif">
+      <span>Discothèque / établissement de nuit</span>
+      <span class="prix">Sur devis</span>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>✨ Prestations ponctuelles</h2>
+
+    <div class="tarif">
+      <span>État des lieux</span>
+      <span class="prix">À partir de 90 €</span>
+    </div>
+
+    <div class="tarif">
+      <span>Nettoyage après travaux</span>
+      <span class="prix">À partir de 120 €</span>
+    </div>
+
+    <div class="tarif">
+      <span>Nettoyage de vitres</span>
+      <span class="prix">À partir de 5 € / vitre</span>
+    </div>
+
+    <
